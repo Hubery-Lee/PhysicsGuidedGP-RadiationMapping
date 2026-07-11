@@ -81,6 +81,7 @@ with `results/` as the working directory, e.g.:
 cd results && python ../code/figures/fig_stats.py     # Fig. 6 (protocol MAE), 7, 9
 cd results && python ../code/figures/fig_sim.py        # Fig. 4 (simulation reconstructions)
 cd results && python ../code/figures/fig_exp.py        # Fig. 5 (experimental reconstructions)
+python code/figures/fig_gate_gt.py                    # Fig. 10 (gate stress-test ground-truth; no results/ needed)
 ```
 `make_fig_traj_ate.py` (Fig. 2, localization/ATE) additionally requires the
 eight-camera motion-capture dataset, which is **not bundled** here; place it in

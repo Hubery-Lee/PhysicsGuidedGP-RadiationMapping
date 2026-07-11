@@ -30,6 +30,7 @@
 | `fig_source_recon.py` | Fig. 8 — source recovery overlay |
 | `fig_run1_traj.py` | run-1 trajectory / mirror-direction degeneracy |
 | `make_fig_traj_ate.py` | Fig. 2 — localization ATE (requires motion-capture data, not bundled) |
+| `fig_gate_gt.py` | Fig. 10 — gate stress-test ground-truth fields (single-source / multi-source / scatter / occlusion) |
 
 ## Data
 `data/1/` … `data/7/` — seven independent robotic survey runs
